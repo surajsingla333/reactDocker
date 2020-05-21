@@ -8,6 +8,11 @@ before_install:
 script:
     - docker run surajsingla333/docker-react npm run test -- --coverage
 
+before_install:
+    - echo $API_HEROKU
+    - echo $HEROKU_API
+    - echo "$API_HEROKU"
+    - echo "$HEROKU_API"
 
 deploy:
     provider: heroku
