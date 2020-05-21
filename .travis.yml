@@ -7,3 +7,27 @@ before_install:
 
 script:
     - docker run surajsingla333/docker-react npm run test -- --coverage
+
+
+deploy:
+    provider: heroku
+    api_key:
+        secure: "$HEROKU_API"
+    app: dockerreact
+    on:
+        repo: surajsingla333/reactDocker
+        branch: master
+
+# AWS as in tutorial
+# deploy:
+#     provider: elasticbeanstalk
+#     region: "us-west-2" # region where we created
+#     app: "dockerReact" # name of the app on elastic
+#     env: "Docker-env" # docker environment
+#     bucket_name: "elasticbeanstalk" #zip file to be called on elastic
+#     bucket_path: "dockerReact" # same as app
+#     on:
+#         branch: master
+
+    
+    
