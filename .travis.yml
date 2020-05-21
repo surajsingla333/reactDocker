@@ -10,7 +10,7 @@ script:
 
 deploy:
     provider: heroku
-    api_key: fbdd8154-e585-4989-9cbf-2526efe736b7
+    api_key: $HEROKU_API
     app: dockerreact
     on:
         repo: surajsingla333/reactDocker
