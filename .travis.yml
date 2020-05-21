@@ -8,16 +8,10 @@ before_install:
 script:
     - docker run surajsingla333/docker-react npm run test -- --coverage
 
-before_install:
-    - echo $API_HEROKU
-    - echo $HEROKU_API
-    - echo "$API_HEROKU"
-    - echo "$HEROKU_API"
-
 deploy:
     provider: heroku
     api_key:
-        secure: ${HEROKU_API}
+        secure: d86fcc6a-ac1c-4d48-a62b-35c6934acfd4
     app: dockerreact
     on:
         repo: surajsingla333/reactDocker
