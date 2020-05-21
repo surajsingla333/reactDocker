@@ -14,7 +14,7 @@ deploy:
         secure: d86fcc6a-ac1c-4d48-a62b-35c6934acfd4
     app: dockerreact
     on:
-        repo: surajsingla333/reactDocker
+        # repo: surajsingla333/reactDocker
         branch: master
 
 # AWS as in tutorial
