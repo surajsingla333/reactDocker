@@ -11,11 +11,10 @@ script:
 deploy:
     provider: heroku
     api_key:
-        secure: "fbdd8154-e585-4989-9cbf-2526efe736b7"
+        secure: YLa1GtjNDFUMivQIqQmahlwfTfkc+Ltt1xAzpi7+Wtjy+j5+3UazC66L94gzRWVYLz2wXi7cqOLuzZ8wJuRtxrE0E6/GgUPHAynU5SEHhHHK2W4RkBrjaPPHaMiPo67Mp4ZQVQgZF7Audu/60JhREXC8hhw1xC+NlgJmXSmE933BHAhZ2xDkJKXuwt7aFdUugA5Zu2yQWiG+hfro7Nn3HBPOah30qw2zlYs6dRflOakJVUxa2EAGGtgt7xSyfttEIudxW1Ck0ZBXdzwAKseDh6j26PeFup6dzpWgglASaP7He5CoD/1wMKPrB2EttlhT9Rg3kLtYgudr2bKJScJJDg75+ikO5oijCO0ignBDd/bVPkLZd6popRQaDEqgDKDC8yC4Qb9BqS9fyxHrnDbWWMT2Np5dQdZj4eKenVgmgPQ9peQBege3g7f0EI7ljdcyUyfsqmbIDgui/QU25HH/1Y1ucZR1ovMGoyfcoMnEG2Xx+QfN/rDn/FWqwS67L30LLjcU9An7y4k0M0zw0I8buRQcAxCvNG2/C3OFnu+Pl9m8R4CFYwynWFXHzRD0S3M2oW40XZtJMdpQnnD15GJ4MCdLchwTffBCVSFaGh/1QPseZeuHRZheT7arfLFyudtThzh6JXd8/CtgGEBsdkg26l/bVrSag60JbTWh6tL6wEA=
     app: dockerreact
     on:
-        # repo: surajsingla333/reactDocker
-        branch: master
+        repo: surajsingla333/reactDocker
 
 # AWS as in tutorial
 # deploy:
