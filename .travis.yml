@@ -15,6 +15,15 @@ deploy:
     on:
         repo: surajsingla333/reactDocker
 
+deploy:
+    provider: azure_web_apps
+    username: $AZURE_USERNAME
+    password: $AZURE_USERNAME
+    site: https://reactdockerapp.azurewebsites.net/
+    on:
+        repo: surajsingla333/reactDocker
+        branch: azure
+
 # AWS as in tutorial
 # deploy:
 #     provider: elasticbeanstalk
