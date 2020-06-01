@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          YOO from the feature Branch!!!
+          Hello from Azure Service!!!
         </p>
         <a
           className="App-link"
